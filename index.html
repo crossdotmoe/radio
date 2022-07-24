@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Weeb Radio</title>
+        <link rel="stylesheet" href="css/hues-min.css">
+        <script type="text/javascript" src="lib/hues-min.js"></script>
+        <script type="text/javascript" src="lib/zip.js"></script>
+        <script type="text/javascript" src="lib/zip-fs.js"></script>
+        <script type="text/javascript">
+            window.addEventListener("load", function() {
+                var defaults = {
+                    workersPath : "lib/workers/",
+                    respacks : ["assets/respacks/DefaultsHQ.zip",
+                                "assets/respacks/420.zip",
+                                "assets/respacks/HuesMixA.zip",
+                                ],
+                    firstSong : "Nhato - Miss You",
+                };
+                core = new HuesCore(defaults);
+            });
+        </script>
+    </head>
+    <body>
+        This page requires Javascript.
+    </body>
+</html>
